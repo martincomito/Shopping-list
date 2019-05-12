@@ -19,7 +19,7 @@ function createListElement(){
 
 function createDeleteButton(li){
 	var deleteButton = document.createElement("button");
-	deleteButton.appendChild(document.createTextNode("X"))	
+	deleteButton.appendChild(document.createTextNode("X"));	
 	deleteButton.setAttribute("class", "btn deletebutton");
 
 	li.appendChild(deleteButton);	
